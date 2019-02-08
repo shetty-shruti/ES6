@@ -68,3 +68,18 @@
  
  /**Template literals end */
 
+ /** Spread operators and rest parameters -- start */
+
+ /** The below example works with integers and strings both or a combination of both too */
+let c =[20,30,40];
+let d = [10,...c, 50];
+console.log(d);
+
+
+/** You can add as many as values with rest parametrs */
+function collect (...a){
+    console.log(a);
+}
+collect(3,4,5,6,10,12);
+
+/** Spread operators and rest parameters -- end */
