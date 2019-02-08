@@ -60,3 +60,11 @@
 
  /** Block Scoping end  */
 
+ /** Template literals start */
+ /** They help us to avoid concatenation. You do not have to worry about spaces */
+ let a = `good`;
+ let b = `${a} morning`;
+ console.log(b);
+ 
+ /**Template literals end */
+
