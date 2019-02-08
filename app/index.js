@@ -6,7 +6,7 @@
 
 /**const values cannot be changes */
  const limit2 = 100;
- console.log(200);
+ console.log(limit2);
  
  /**you cannot vhange values for const but can add values to it if its an array */
  const emails= ['shr@emails.com','she@emails.com'];
