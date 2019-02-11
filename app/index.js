@@ -100,3 +100,29 @@ setTimeout(() => {
     console.log("Arrow Functions")
 }, 3000);
 /** Arrow Functions end */
+
+/** Map  start */
+
+let values = [20,30,40];
+
+let double = (n) => {
+    return n * 2 ;
+}
+ let doubled_1 = values.map(double);
+ console.log(doubled_1);
+
+ let doubled_2 = values.map((n) => n*2)
+ console.log(doubled_2);
+
+/** Map end */
+
+/**  Filters start */
+let points = [7, 16, 21, 4, 5, 36, 22, 7];
+let highScores_1 = points.filter((n) => {
+    return n > 15;
+})
+ console.log(highScores_1);
+
+let highScores_2 = points.filter((n) => n > 20);
+console.log(highScores_2);
+/** Filters end */
