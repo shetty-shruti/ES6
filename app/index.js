@@ -83,3 +83,20 @@ function collect (...a){
 collect(3,4,5,6,10,12);
 
 /** Spread operators and rest parameters -- end */
+
+/** Adding  destruction assignments */
+
+/** Anonymous Function  expression start */
+
+var cheer = function(){
+    console.log("Woohoo!");
+}
+cheer();
+/** Anonymous Function  expression end */
+
+/** Arrow functions start */
+/** Arrow functions are anonymous by default */
+setTimeout(() => {
+    console.log("Arrow Functions")
+}, 3000);
+/** Arrow Functions end */
