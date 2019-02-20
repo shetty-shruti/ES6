@@ -1,3 +1,6 @@
+ import multiply from './math';
+ import {add, subtract} from './math';
+ 
  /** let which helps u store variables which you can change */
  
  let limit = 100;
@@ -126,3 +129,9 @@ let highScores_1 = points.filter((n) => {
 let highScores_2 = points.filter((n) => n > 20);
 console.log(highScores_2);
 /** Filters end */
+
+/** Modules start */
+
+    console.log(multiply(5,10));
+    console.log(add(5,10));
+/**Modules end */
