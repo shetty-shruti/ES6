@@ -131,7 +131,20 @@ console.log(highScores_2);
 /** Filters end */
 
 /** Modules start */
-
     console.log(multiply(5,10));
     console.log(add(5,10));
 /**Modules end */
+
+/**Static method starts */
+class Calculator{
+    static multiplyNumbers(a,b){
+        return a * b;
+    }
+}
+
+let m = Calculator.multiplyNumbers(5,7);
+console.log(m);
+
+/** Static method ends */
+
+ 
