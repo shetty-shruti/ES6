@@ -1,5 +1,6 @@
  import multiply from './math';
  import {add, subtract} from './math';
+ import { printSet } from './setImplementation';
  
  /** let which helps u store variables which you can change */
  
@@ -169,4 +170,7 @@ console.log(harry.info());
 
 /** Protypes ends */
 
- 
+/** Set Implementation starts */
+printSet();
+
+/** Set Implementation ends */
