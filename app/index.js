@@ -147,4 +147,26 @@ console.log(m);
 
 /** Static method ends */
 
+/** Protypes starts */
+function Wizard(name, house, pet){
+    this.name = name;
+    this.house = house;
+    this.pet = pet;
+
+    this.greet = () => `I am ${this.name} from ${this.house}`;
+}
+
+Wizard.prototype.info = function(){
+    return `I have a ${this.pet} named ${this.pet_name}`;
+}
+Wizard.prototype.pet_name;
+let harry =  new Wizard("Harry", "Gryffindor","Owl");
+harry.pet_name = "Hedwigh";
+console.log(harry.greet());
+
+console.log(harry.pet_name);
+console.log(harry.info());
+
+/** Protypes ends */
+
  
