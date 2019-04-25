@@ -1,6 +1,7 @@
  import multiply from './math';
  import {add, subtract} from './math';
  import { printSet } from './setImplementation';
+ import { addSuffix } from './closures';
  
  /** let which helps u store variables which you can change */
  
@@ -172,5 +173,14 @@ console.log(harry.info());
 
 /** Set Implementation starts */
 printSet();
-
 /** Set Implementation ends */
+
+
+/** Closures Start */
+    let add_ness = addSuffix("ness");
+    console.log(add_ness);
+
+    let h = add_ness("happi");   
+    console.log(h);   
+
+/** Closures End */
